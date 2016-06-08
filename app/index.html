@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="_style/style.css"/>
+	<link rel="stylesheet" type="text/css" href="_style/anim.css"/>
+	<meta charset="UTF-8">
+	<meta name="description" content="Guide touristique à portée de main dans une application mobile.">
+
+	<!-- Meta opengraph -->
+	<meta property="og:title" content="Tom | Une nouvelle manière de visiter" />
+	<meta property="og:type" content="Website" />
+	<meta property="og:url" content="http://movanoncem.be/tfe/juin/app/index.html" />
+	<meta property="og:image" content="http://movanoncem.be/openGraphImage.png" />
+
+	<!-- title -->
+	<meta content="Tom" name="title">
+	<title>Tom | Application mobile</title>
+	
+	<!-- favicon -->
+	<link rel="apple-touch-icon" href="_images/faviconPhone.png"/>
+	<link rel="icon" type="image/png" href="_images/favicon.png" />
+
+	<!-- meta pour le mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+	<!-- meta webapp capable -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+
+	<!-- Status bar apparence  -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'/>
+
+	<!-- wavesurfer	 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.0.57/wavesurfer.min.js"></script>
+
+	<!-- Google Maps -->
+	 <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWZmgX5znFWqKT39BWY5WzP3xrTdBF6_Q"
+        async defer type="text/javascript"></script>
+
+</head>
+
+<body>
+	<div class="containerBody">
+
+		<div class="loadscreen">
+			<svg class="logo"  data-wow-offset="200" version="1.1" id="tom-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.833px" height="354.833px" viewBox="0 0 354.833 354.833" xml:space="preserve">
+				<g>
+					<path fill="#6B6BDD" d="M261.659,78.808H93.174c-48.98,0-88.702,39.7-88.702,88.702v95.522c0,48.98,39.722,88.702,88.702,88.702 h94.235h74.25h88.703v-88.702V222.7v-55.19C350.362,118.507,310.639,78.808,261.659,78.808z"/>
+					<path class="eyes" fill="#EFEFEF" d="M142.087,211.907c0,11.448-9.281,20.707-20.685,20.707l0,0c-11.426,0-20.685-9.259-20.685-20.707v-52.458 c0-11.404,9.259-20.662,20.685-20.662l0,0c11.404,0,20.685,9.258,20.685,20.662V211.907z"/>
+					<path class="eyes" fill="#EFEFEF" d="M255.092,211.907c0,11.448-9.258,20.707-20.707,20.707l0,0c-11.403,0-20.686-9.259-20.686-20.707v-52.458 c0-11.404,9.282-20.662,20.686-20.662l0,0c11.449,0,20.707,9.258,20.707,20.662V211.907L255.092,211.907z"/>
+					<path fill="#EFEFEF" d="M121.228,137.786c-11.616,0-21.028,11.364-21.028,25.395v18.931c0-14.002,9.412-21.38,21.028-21.38 c11.617,0,21.047,7.378,21.047,21.38v-18.931C142.275,149.15,132.845,137.786,121.228,137.786z"/>
+					<path fill="#EFEFEF" d="M234.219,137.786c-11.533,0-20.914,11.364-20.914,25.395v18.931c0-14.002,9.381-21.38,20.914-21.38 c11.578,0,20.947,7.378,20.947,21.38v-18.931C255.167,149.15,245.797,137.786,234.219,137.786z"/>
+				</g>
+			</svg>
+			<div class="texts">
+				<p class="p1">Tom</p>
+				<p class="p2">Une nouvelle manière de visiter!</p>
+				<p class="p3">Pour commencer la visite, saluez Tom ci-dessous </p>
+				<img src="_images/help_arrow.png" alt="flèche d'aide vers le bas" id="help_arrow">
+			</div>
+		</div>
+
+		<div class="containerMenu">
+			<div class="container-notification">
+				<svg version="1.1" id="tom-svgBis" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px" height="60px" viewBox="0 0 354.833 354.833" enable-background="new 0 0 354.833 354.833"
+				 xml:space="preserve">
+			<g>
+				<path fill="#6B6BDD" d="M261.659,78.808H93.174c-48.98,0-88.702,39.7-88.702,88.702v95.522c0,48.98,39.722,88.702,88.702,88.702 h94.235h74.25h88.703v-88.702V222.7v-55.19C350.362,118.507,310.639,78.808,261.659,78.808z"/>
+				<path fill="#EFEFEF" d="M142.087,211.907c0,11.448-9.281,20.707-20.685,20.707l0,0c-11.426,0-20.685-9.259-20.685-20.707v-52.458 c0-11.404,9.259-20.662,20.685-20.662l0,0c11.404,0,20.685,9.258,20.685,20.662V211.907z"/>
+				<path fill="#EFEFEF" d="M255.092,211.907c0,11.448-9.258,20.707-20.707,20.707l0,0c-11.403,0-20.686-9.259-20.686-20.707v-52.458 c0-11.404,9.282-20.662,20.686-20.662l0,0c11.449,0,20.707,9.258,20.707,20.662V211.907L255.092,211.907z"/>
+				<path fill="#EFEFEF" d="M121.228,137.786c-11.616,0-21.028,11.364-21.028,25.395v18.931c0-14.002,9.412-21.38,21.028-21.38 c11.617,0,21.047,7.378,21.047,21.38v-18.931C142.275,149.15,132.845,137.786,121.228,137.786z"/>
+				<path fill="#EFEFEF" d="M234.219,137.786c-11.533,0-20.914,11.364-20.914,25.395v18.931c0-14.002,9.381-21.38,20.914-21.38 c11.578,0,20.947,7.378,20.947,21.38v-18.931C255.167,149.15,245.797,137.786,234.219,137.786z"/>
+			</g>
+			</svg>
+
+				<p>Durant toute la visite, si vous passez près d’un lieu intéressant, je ne pourrai résister à vous en parler. Choissisez ici les thèmes que vous souhaitez aborder.</p>
+				<ul>
+					<li>&#9962;  &nbsp; &nbsp;Histoire de la ville <div class="settings-switcher"><div class="switcher1 active"></div></div></li>
+					<li>&#10024; &nbsp; &nbsp;Curiosités et anecdotes<div class="settings-switcher"><div class="switcher2 active"></div></div></li>
+					<li>&#127881; &nbsp; &nbsp;Folklore de la ville<div class="settings-switcher"><div class="switcher3 active"></div></div></li>
+				</ul>
+				<!-- <p>Votre choix est fait ? Allons visiter !</p> -->
+				<div onclick="menuDisparition();">Allons visiter ! &#128077; </div>
+			</div>
+		</div>
+
+		<div class="containerMap">
+			<div class="map0">
+				<div id="map_canvasZero"></div>
+				<div class="way0">
+					<svg version="1.1" id="way0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="80px" viewBox="0 0 100 80" enable-background="new 0 0 100 80" xml:space="preserve">
+						<rect x="52.862" y="42.181" fill="#6B6BDD" width="46.764" height="37.819"/>
+						<path fill="#6B6BDD" d="M99.626,54.008C99.626,68.363,88.233,80,74.18,80h-48.36C11.766,80,0.373,68.363,0.373,54.008V25.993 C0.373,11.638,11.766,0,25.819,0h48.36c14.054,0,25.446,11.638,25.446,25.993V54.008z"/>
+						<path fill="#FFFFFF" d="M39.479,41.063c0,2.219-2.487,4.02-5.552,4.02l0,0c-3.067,0-5.553-1.801-5.553-4.02V21.599 c0-2.22,2.486-4.02,5.553-4.02l0,0c3.065,0,5.552,1.8,5.552,4.02V41.063z"/>
+						<path fill="#FFFFFF" d="M71.498,41.063c0,2.219-2.472,4.02-5.518,4.02l0,0c-3.049,0-5.517-1.801-5.517-4.02V21.599 c0-2.22,2.468-4.02,5.517-4.02l0,0c3.046,0,5.518,1.8,5.518,4.02V41.063z"/>
+					</svg>
+					<p class="guide01"></p>
+					<div class="pin0" onclick='pin0Bis("here");'></div>
+					<div class="pin0Bis" onclick='pin0Bis("here");'>Vous êtes ici!</div>
+
+					<div class="pin0A" onclick='pin0Bis("Armes");'><p>1</p></div>
+					<div class="pin0ABis" onclick='pin0Bis("Armes");'>Place d'Armes</div>
+
+					<div class="pin0B"  onclick='pin0Bis("Theatre");'><p>2</p></div>
+					<div class="pin0BBis" onclick='pin0Bis("Theatre");'>Théatre</div>
+				</div>
+			</div>
+			<div class="map">
+				<div class="pin">
+					<svg style="margin-top:7px" version="1.1" id="trajet1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="320px" height="485px" viewBox="0 0 320 485" enable-background="new 0 0 320 485" xml:space="preserve">
+						<path class="path" fill="none" stroke="#676AB0" stroke-width="3" stroke-miterlimit="10" d="M273.333,206c0,0-14.67,1.882-18.848,5.004 c-6.665,4.981-13.342,21.512-17.819,28.663c-1.761,2.812-5.871,8.107-8.333,10.333c-3.395,3.069-11.492,7.511-15.333,10 c-4.309,2.792-13.048,8.358-16.667,12c-2.738,2.756-6.131,10.048-9,12.667c-3.11,2.84-10.905,6.681-15,7.667 c-3.402,0.819-12.969-0.549-16.333,0.416c-3.778,1.083-11,7.917-11,7.917s-10.863,9.013-15.125,11.083 c-5.529,2.686-23.542,6.25-23.542,6.25s-12.626,4.491-17,5.334c-6.401,1.234-19.708,2.669-26,2 c-3.114-0.331-5.005-7.38-5.333-11.334c-0.127-1.531,4.667-4,4.667-4"/>
+					</svg>
+					<div class="pin1"><p>A</p></div>
+					<div class="pin2"><p>B</p></div>
+				</div>
+				<div id="map_canvas">
+				</div>
+				<div class="way">
+					<svg version="1.1" id="way" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="80px" viewBox="0 0 100 80" enable-background="new 0 0 100 80" xml:space="preserve">
+						<rect x="52.862" y="42.181" fill="#6B6BDD" width="46.764" height="37.819"/>
+						<path fill="#6B6BDD" d="M99.626,54.008C99.626,68.363,88.233,80,74.18,80h-48.36C11.766,80,0.373,68.363,0.373,54.008V25.993 C0.373,11.638,11.766,0,25.819,0h48.36c14.054,0,25.446,11.638,25.446,25.993V54.008z"/>
+						<path fill="#FFFFFF" d="M39.479,41.063c0,2.219-2.487,4.02-5.552,4.02l0,0c-3.067,0-5.553-1.801-5.553-4.02V21.599 c0-2.22,2.486-4.02,5.553-4.02l0,0c3.065,0,5.552,1.8,5.552,4.02V41.063z"/>
+						<path fill="#FFFFFF" d="M71.498,41.063c0,2.219-2.472,4.02-5.518,4.02l0,0c-3.049,0-5.517-1.801-5.517-4.02V21.599 c0-2.22,2.468-4.02,5.517-4.02l0,0c3.046,0,5.518,1.8,5.518,4.02V41.063z"/>
+					</svg>
+					<svg version="1.1" id="way1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="80px" viewBox="0 0 100 80" enable-background="new 0 0 100 80" xml:space="preserve">
+						<path fill="#545454" d="M77.219,26.111c1.123,1.125,1.123,2.897,0,4.024c-1.088,1.086-2.896,1.086-3.986,0L52.836,9.736v67.312 c0,1.572-1.246,2.817-2.814,2.817c-1.571,0-2.857-1.245-2.857-2.817V9.733L26.805,30.131c-1.125,1.088-2.938,1.088-4.024,0 c-1.123-1.126-1.123-2.896,0-4.023L48.01,0.88c1.089-1.087,2.896-1.087,3.983,0L77.219,26.111z"/>
+					</svg>
+					<p class="guide1">Continuez tout droit pendant <span style="color: #6b6bdd">800m</span>.</p>
+					<p class="guide2" style="width:150px">Tournez à gauche dans <span style="color: #6b6bdd">100m</span>.</p>
+					<p class="guide3" style="width:150px">Tournez à droite dans <span style="color: #6b6bdd">700m</span>.</p>
+				</div>
+			</div>
+			<div class="map2">
+				<div class="pin">
+					<svg  style="margin-top:7px" version="1.1" id="trajet2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="320px" height="485px" viewBox="0 0 320 485" enable-background="new 0 0 320 485" xml:space="preserve">
+					<path class="pathBis" fill="none" stroke="#676AB0" stroke-width="3" stroke-miterlimit="10" d="M119,281c0,0,28.236-4.918,31.529-12.279
+						c6.231-13.932,16.096-46.846,16.096-46.846"/>
+					</svg>
+					<div class="pin3"><p>A</p></div>
+					<div class="pin4"><p>B</p></div>
+				</div>
+				<div id="map_canvasTwo"></div>
+				<div class="way2">
+					<svg version="1.1" id="way2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="80px" viewBox="0 0 100 80" enable-background="new 0 0 100 80" xml:space="preserve">
+						<rect x="52.862" y="42.181" fill="#6B6BDD" width="46.764" height="37.819"/>
+						<path fill="#6B6BDD" d="M99.626,54.008C99.626,68.363,88.233,80,74.18,80h-48.36C11.766,80,0.373,68.363,0.373,54.008V25.993 C0.373,11.638,11.766,0,25.819,0h48.36c14.054,0,25.446,11.638,25.446,25.993V54.008z"/>
+						<path fill="#FFFFFF" d="M39.479,41.063c0,2.219-2.487,4.02-5.552,4.02l0,0c-3.067,0-5.553-1.801-5.553-4.02V21.599 c0-2.22,2.486-4.02,5.553-4.02l0,0c3.065,0,5.552,1.8,5.552,4.02V41.063z"/>
+						<path fill="#FFFFFF" d="M71.498,41.063c0,2.219-2.472,4.02-5.518,4.02l0,0c-3.049,0-5.517-1.801-5.517-4.02V21.599 c0-2.22,2.468-4.02,5.517-4.02l0,0c3.046,0,5.518,1.8,5.518,4.02V41.063z"/>
+					</svg>
+					<svg version="1.1" id="way22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="80px" viewBox="0 0 100 80" enable-background="new 0 0 100 80" xml:space="preserve">
+						<path fill="#545454" d="M77.219,26.111c1.123,1.125,1.123,2.897,0,4.024c-1.088,1.086-2.896,1.086-3.986,0L52.836,9.736v67.312 c0,1.572-1.246,2.817-2.814,2.817c-1.571,0-2.857-1.245-2.857-2.817V9.733L26.805,30.131c-1.125,1.088-2.938,1.088-4.024,0 c-1.123-1.126-1.123-2.896,0-4.023L48.01,0.88c1.089-1.087,2.896-1.087,3.983,0L77.219,26.111z"/>
+					</svg>
+					<p class="guide12">Continuez tout droit pendant <span style="color: #6b6bdd">200m</span>.</p>
+					<p class="guide22" style="width:150px">Tournez à gauche dans <span style="color: #6b6bdd">100m</span>.</p>
+				</div>
+			</div>
+			<div>
+				<div class="notification"></div>
+				<div class="notifblock">
+					<p>Tom</p>
+					<p>Vous êtes arrivés à la place d'Armes! </p>
+					<p onclick='seventhAnswer();'>Découvrir</p>
+				</div>
+			</div>
+			<div>
+				<div class="notification2"></div>
+				<div class="notifblock2">
+					<p>Tom</p>
+					<p>Vous êtes arrivés à la place du théatre! </p>
+					<p onclick='elevenAnswer();'>Découvrir</p>
+				</div>
+			</div>
+			
+		</div>
+			 <div class="container">
+			<!-- header -->
+			<div class="header">
+				<img class="menu" src="_images/menu.png" alt="Icone du menu" onclick="menu();">
+				<h1>Tom</h1>
+				<h2>Carte</h2>
+				<img class="carte" src="_images/carte.png" alt="Icone de la carte" onclick="card();">
+			</div>
+			<!-- content -->
+			<div id="content">
+				<div class="firstBtn" onclick="loadingEnd()"><p>Bonjour Tom !</p></div>
+			</div>
+		</div>
+	</div>
+	<div class="containerPictures">
+		<img class="croix" src="_images/closeBtn.png" onclick='bigPictureClose()' alt="Croix de fermeture de la photo">
+	</div>
+	<img  class="imageArmes" src="_images/francwesydjoseph.jpg" alt="francwes et djoseph">
+	<img  class="imageTrone" src="_images/tronedesmenteurs.jpg" alt="trone des menteurs">
+
+<script src="_assets/jquery-1.10.2.min.js"></script>
+<script src="_assets/main.js"></script>
+<script src="_assets/easing.js"></script>
+</body>
+</html>

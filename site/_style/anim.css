@@ -1,0 +1,259 @@
+.goToLeft{
+	animation: goToLeft 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-webkit-animation: goToLeft 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-moz-animation: goToLeft 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+@keyframes goToLeft{
+	from { transform: translateX(0); opacity: 1;}
+	to { transform: translateX(-100%); margin-left: -100%; opacity: 0;}
+}
+@-webkit-keyframes goToLeft{
+	from { -webkit-transform: translateX(0); opacity: 1;}
+	to { -webkit-transform: translateX(-100%); margin-left: -100%; opacity: 0;}
+}
+@-moz-keyframes goToLeft{
+	from { -moz-transform: translateX(0); opacity: 1;}
+	to { -moz-transform: translateX(-100%); margin-left: -100%; opacity: 0;}
+}
+
+.comeFromRight{
+	animation: comeFromRight 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-webkit-animation: comeFromRight 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-moz-animation: comeFromRight 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+@keyframes comeFromRight{
+	from { transform: translateX(100%); opacity: 0;}
+	to { transform: translateX(0); opacity: 1; }
+}
+@-webkit-keyframes comeFromRight{
+	from { -webkit-transform: translateX(100%); opacity: 0;}
+	to { -webkit-transform: translateX(0); opacity: 1; }
+}
+@-moz-keyframes comeFromRight{
+	from { -moz-transform: translateX(100%); opacity: 0;}
+	to { -moz-transform: translateX(0); opacity: 1; }
+}
+
+.goToRight{
+	animation: goToRight 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-webkit-animation: goToRight 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-moz-animation: goToRight 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+@keyframes goToRight{
+	from { transform: translateX(0); opacity: 1; }
+	to { transform: translateX(200%); opacity: 0;}
+}
+@-webkit-keyframes goToRight{
+	from { -webkit-transform: translateX(0); opacity: 1; }
+	to { -webkit-transform: translateX(200%); opacity: 0;}
+}
+@-moz-keyframes goToRight{
+	from { -moz-transform: translateX(0); opacity: 1; }
+	to { -moz-transform: translateX(200%); opacity: 0;}
+}
+
+.comeFromLeft{
+	animation: comeFromLeft 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-webkit-animation: comeFromLeft 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-moz-animation: comeFromLeft 1s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+@keyframes comeFromLeft{
+	from { transform: translateX(-100%); opacity: 0;}
+	to { transform: translateX(0); opacity: 1; }
+}
+@-webkit-keyframes comeFromLeft{
+	from { -webkit-transform: translateX(-100%); opacity: 0;}
+	to { -webkit-transform: translateX(0); opacity: 1; }
+}
+@-moz-keyframes comeFromLeft{
+	from { -moz-transform: translateX(-100%); opacity: 0;}
+	to { -moz-transform: translateX(0); opacity: 1; }
+}
+
+.helloanim{
+	animation: helloanim .1s forwards cubic-bezier(.46,.48,.89,1.15);
+	-webkit-animation: helloanim .1s forwards cubic-bezier(.46,.48,.89,1.15);
+	-moz-animation: helloanim .1s forwards cubic-bezier(.46,.48,.89,1.15);
+}
+@keyframes helloanim{
+	from { transform: translateY(0px); opacity: 0;}
+	to { transform: translateY(10px); opacity: 1;}
+}
+@-webkit-keyframes helloanim{
+	from { -webkit-transform: translateY(0px); opacity: 0;}
+	to { -webkit-transform: translateY(10px); opacity: 1;}
+}
+@-moz-keyframes helloanim{
+	from { -moz-transform: translateY(0px); opacity: 0;}
+	to { -moz-transform: translateY(10px); opacity: 1;}
+}
+
+.heloanimbis{
+	animation: heloanimbis 1s forwards cubic-bezier(.46,.48,.89,1.15);
+	-webkit-animation: heloanimbis 1s forwards cubic-bezier(.46,.48,.89,1.15);
+	-moz-animation: heloanimbis 1s forwards cubic-bezier(.46,.48,.89,1.15);
+}
+@keyframes heloanimbis{
+	0% { opacity: 1;}
+
+	100% { opacity: 0;}
+}
+@-webkit-keyframes heloanimbis{
+	0% { opacity: 1;}
+
+	100% { opacity: 0;}
+}
+@-moz-keyframes heloanimbis{
+	0% { opacity: 1;}
+
+	100% { opacity: 0;}
+}
+
+
+
+.helloanimEnd{
+	animation: helloanimEnd .1s forwards cubic-bezier(.46,.48,.89,1.15);
+	-webkit-animation: helloanimEnd .1s forwards cubic-bezier(.46,.48,.89,1.15);
+	-moz-animation: helloanimEnd .1s forwards cubic-bezier(.46,.48,.89,1.15);
+}
+@keyframes helloanimEnd{
+	from { transform: translateY(10px); opacity: 1;}
+	to { transform: translateY(0px); opacity: 0;}
+}
+@-webkit-keyframes helloanimEnd{
+	from { -webkit-transform: translateY(10px); opacity: 1;}
+	to { -webkit-transform: translateY(0px); opacity: 0;}
+}
+@-moz-keyframes helloanimEnd{
+	from { -moz-transform: translateY(10px); opacity: 1;}
+	to { -moz-transform: translateY(0px); opacity: 0;}
+}
+
+.messageTomAnim{
+	animation: messageTomAnim .4s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+	-webkit-animation: messageTomAnim .4s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+	-moz-animation: messageTomAnim .4s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+@keyframes messageTomAnim{
+	from { transform: translateY(20px); opacity: 0;}
+	to { transform: translateY(0px); opacity: 1;}
+}
+@-webkit-keyframes messageTomAnim{
+	from { -webkit-transform: translateY(20px); opacity: 0;}
+	to { -webkit-transform: translateY(0px); opacity: 1;}
+}
+@-moz-keyframes messageTomAnim{
+	from { -moz-transform: translateY(20px); opacity: 0;}
+	to { -moz-transform: translateY(0px); opacity: 1;}
+}
+.answerUserAnim{
+	animation: answerUserAnim .4s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+	-webkit-animation: answerUserAnim .4s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+	-moz-animation: answerUserAnim .4s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+@keyframes answerUserAnim{
+	from { transform: translateY(50px); opacity: 0;}
+	to { transform: translateY(0px); opacity: 1;}
+}
+@-webkit-keyframes answerUserAnim{
+	from { -webkit-transform: translateY(50px); opacity: 0;}
+	to { -webkit-transform: translateY(0px); opacity: 1;}
+}
+@-moz-keyframes answerUserAnim{
+	from { -moz-transform: translateY(50px); opacity: 0;}
+	to { -moz-transform: translateY(0px); opacity: 1;}
+}
+
+.answerUserAnimDelay{
+	animation: answerUserAnimDelay .4s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+	animation-delay: .2s;
+	-webkit-animation: answerUserAnimDelay .4s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+	-webkit-animation-delay: .2s;
+	-moz-animation: answerUserAnimDelay .4s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+	-moz-animation-delay: .2s;
+}
+@-webkit-keyframes answerUserAnimDelay{
+	from { -webkit-transform: translateY(50px); opacity: 0;}
+	to { -webkit-transform: translateY(0px); opacity: 1;}
+}
+@-moz-keyframes answerUserAnimDelay{
+	from { -moz-transform: translateY(50px); opacity: 0;}
+	to { -moz-transform: translateY(0px); opacity: 1;}
+}
+@keyframes answerUserAnimDelay{
+	from { transform: translateY(50px); opacity: 0;}
+	to { transform: translateY(0px); opacity: 1;}
+}
+.openMenu{
+	animation: openMenu .8s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+	-webkit-animation: openMenu .8s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+	-moz-animation: openMenu .8s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+@keyframes openMenu{
+	0% { transform: translateY(-100%); opacity: 0;}
+	100% {transform: translatey(0%); opacity: 1;}
+}
+@-webkit-keyframes openMenu{
+	0% { -webkit-transform: translateY(-100%); opacity: 0;}
+	100% { -webkit-transform: translatey(0%); opacity: 1;}
+}
+@-moz-keyframes openMenu{
+	0% { transform: translateY(-100%); opacity: 0;}
+	100% { transform: translatey(0%); opacity: 1;}
+}
+.closeMenu{
+	animation: closeMenu .8s forwards cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	-webkit-animation: closeMenu .8s forwards cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	-moz-animation: closeMenu .8s forwards cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+@keyframes closeMenu{
+	0% { transform: translateY(0%); opacity: 1;}
+	60%{opacity: 1;}
+	100% { transform: translatey(-100%); opacity: 0;}
+}
+@-webkit-keyframes closeMenu{
+	0% { -webkit-transform: translateY(0%); opacity: 1;}
+	60%{opacity: 1;}
+	100% { -webkit-transform: translatey(-100%); opacity: 0;}
+}
+@-moz-keyframes closeMenu{
+	0% { -moz-transform: translateY(0%); opacity: 1;}
+	60%{opacity: 1;}
+	100% { -moz-transform: translatey(-100%); opacity: 0;}
+}
+.submitBtnAnim{
+	animation: submitBtnAnim .4s forwards cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	-webkit-animation: submitBtnAnim .4s forwards cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	-moz-animation: submitBtnAnim .4s forwards cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+@keyframes submitBtnAnim{
+	0% { width: 110px;}
+	100% { width: 350px; border-radius: 30px 30px 30px 30px;}
+}
+@-webkit-keyframes submitBtnAnim{
+	0% { width: 110px;}
+	100% { width: 350px; border-radius: 30px 30px 30px 30px;}
+}
+@-moz-keyframes submitBtnAnim{
+	0% { width: 110px;}
+	100% { width: 350px; border-radius: 30px 30px 30px 30px;}
+}
+@media only screen and (max-width:500px) {
+.submitBtnAnim{
+		animation: submitBtnAnim .4s forwards cubic-bezier(0.895, 0.03, 0.685, 0.22);
+		-webkit-animation: submitBtnAnim .4s forwards cubic-bezier(0.895, 0.03, 0.685, 0.22);
+		-moz-animation: submitBtnAnim .4s forwards cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	}
+	@-webkit-keyframes submitBtnAnim{
+		0% { width: 110px;}
+		100% { width: 280px; border-radius: 30px 30px 30px 30px;}
+	}
+	@-moz-keyframes submitBtnAnim{
+		0% { width: 110px;}
+		100% { width: 280px; border-radius: 30px 30px 30px 30px;}
+	}
+	@keyframes submitBtnAnim{
+		0% { width: 110px;}
+		100% { width: 280px; border-radius: 30px 30px 30px 30px;}
+	}
+}
